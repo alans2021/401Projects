@@ -1,0 +1,102 @@
+package assignment3;
+
+import java.util.*;
+import java.io.*;
+
+public class PlayerList {
+	private Scanner sc;
+	private ArrayList<Player> players = new ArrayList<Player>();
+	private int totR; //total rounds
+	private int totW; //total wins
+	private int totL; //total loss
+	private double totPerc; //total percent of rounds won
+	private File text;
+	public PlayerList(String s){
+		try{
+			text = new File(s); 
+			sc = new Scanner(text);
+			while(sc.hasNextLine() && sc.hasNext()){ //If there's another line in file, and that line has info, proceed
+				String n = sc.next(); //Info from each line used to make a Player object
+				int r = sc.nextInt();
+				int w = sc.nextInt();
+				int l = sc.nextInt();
+				players.add( new Player(n, r, w, l));
+			}
+			for(int i = 0; i < players.size(); i++){ //total stats updated
+				totR += players.get(i).getRounds();
+				totW += players.get(i).getWins();
+				totL += players.get(i).getLoss();
+			}
+		}
+		catch(IOException e){
+			System.out.println("File not found");
+		}
+	}
+	
+	public Player getPlayer(String s){
+		for(int i = 0; i < players.size(); i++){
+			if(players.get(i).getName().equals(s)) //If player name matches argument, return that player
+				return players.get(i);
+		}
+		return null; //If not found, return null
+		
+	}
+	
+	public void addPlayer(Player p){
+		players.add(p);
+		totR += p.getRounds(); //total statistics updated
+		totW += p.getWins();
+		totL += p.getLoss();
+	}
+	
+	public Player removePlayer(String s){
+		for(int i = 0; i < players.size(); i++){
+			if(players.get(i).getName().equals(s)){ //If player name matches arg, return player and remove from list
+				Player removed = players.get(i);
+				totR = totR - removed.getRounds(); //total statistics remove the statistics of removed player
+				totW = totW - removed.getWins();
+				totL = totL - removed.getLoss();
+				players.remove(i);
+				return removed;
+			}
+		}
+		return null; //If specified name not found, return null
+	}
+	
+	public String toString(){
+		totPerc = (int) ( 1000.0 * totW / totR); //These two lines make the decimal rounded to one decimal place
+		totPerc = totPerc / 10;
+		StringBuilder s = new StringBuilder("Total Players: " + players.size() + "\n");
+		s.append("\tTotal Rounds Played: " + totR + "\n");
+		s.append("\tTotal Rounds Won: " + totW + "\n");
+		s.append("\tTotal Rounds Lost: " + totL + "\n");
+		s.append("\tPct of Rounds Won: " + totPerc + "\n");
+		return s.toString();
+	}
+	
+	public String toStringAdmin(){
+		StringBuilder s = new StringBuilder(this.toString()); //calls its own toString method with total player stats
+		s.append("Players:" + "\n");
+		for(int i = 0; i < players.size(); i++){
+			s.append(players.get(i).toString()); //calls each Player's toString methods with its stats
+			s.append("\n");
+		}
+		return s.toString();
+	}
+	
+	public void saveList(){
+		try{
+			PrintWriter fileOut = new PrintWriter(text);
+			for(int i = 0; i < players.size(); i++){
+				Player p = players.get(i);
+				//Info saved back to text file
+				fileOut.println(p.getName() + " " + p.getRounds() + " " + p.getWins() + " " + p.getLoss());
+			}
+			fileOut.close();
+		}
+		catch(IOException e){
+			System.out.println("File not found");
+		}
+	}
+
+}

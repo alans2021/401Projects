@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;assignment4.LoginPanel.java&apos; to &apos;LoginInterface.java&apos;&#x0D;&#x0A;- Original project: &apos;CS 0401 Assignments&apos;&#x0D;&#x0A;- Original element: &apos;assignment4.LoginPanel.java&apos;&#x0D;&#x0A;- Renamed element: &apos;assignment4.LoginInterface.java&apos;" description="Rename compilation unit &apos;LoginPanel.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;assignment4{LoginPanel.java" name="LoginInterface.java" references="false" stamp="1510687592237" version="1.0"/>
+</session>

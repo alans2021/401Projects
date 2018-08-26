@@ -1,0 +1,23 @@
+{
+  "C:\\Users\\alans\\Downloads\\Java\\lib\\rt.jar": {
+    "coordinate": "jre:jre:zip:call:1.0.0",
+    "location": "C:\\Users\\alans\\Downloads\\Java\\lib\\rt.jar",
+    "status": "RESOLVED",
+    "error": "No call model found for \u0027C:\\Users\\alans\\Downloads\\Java\\lib\\rt.jar\u0027. Neither fingerprint \u002798afe389c0e61fff79d4a5b404f61c1a0fc538ce\u0027 nor symbolic name \u0027jre\u0027 are known."
+  },
+  "C:\\Users\\alans\\Documents\\Freshman year\\CS 0401\\Programming Works\\CS 0401 Assignments\\src": {
+    "location": "C:\\Users\\alans\\Documents\\Freshman year\\CS 0401\\Programming Works\\CS 0401 Assignments\\src",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027C:\\Users\\alans\\Documents\\Freshman year\\CS 0401\\Programming Works\\CS 0401 Assignments\\src\u0027. Skipped."
+  },
+  "C:\\Users\\alans\\Documents\\Freshman year\\CS 0401\\Programming Works\\Labs\\src": {
+    "location": "C:\\Users\\alans\\Documents\\Freshman year\\CS 0401\\Programming Works\\Labs\\src",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027C:\\Users\\alans\\Documents\\Freshman year\\CS 0401\\Programming Works\\Labs\\src\u0027. Skipped."
+  },
+  "C:\\Users\\alans\\Documents\\Freshman year\\CS 0401\\Programming Works\\Course Examples\\src": {
+    "location": "C:\\Users\\alans\\Documents\\Freshman year\\CS 0401\\Programming Works\\Course Examples\\src",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027C:\\Users\\alans\\Documents\\Freshman year\\CS 0401\\Programming Works\\Course Examples\\src\u0027. Skipped."
+  }
+}

@@ -1,0 +1,236 @@
+[
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "9edf0f7c3cdd91cf3596edf9970074112cf13d3c",
+    "jarFileModificationDate": "2017-07-20T13:28:05.350-04:00",
+    "location": "C:\\Users\\alans\\Downloads\\Java\\lib\\ext\\sunec.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "98afe389c0e61fff79d4a5b404f61c1a0fc538ce",
+    "jarFileModificationDate": "2017-07-20T13:28:06.698-04:00",
+    "location": "C:\\Users\\alans\\Downloads\\Java\\lib\\rt.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "1f3e9d464f6e2b98131028f7d0e915618b456386",
+    "jarFileModificationDate": "2017-07-20T13:28:05.350-04:00",
+    "location": "C:\\Users\\alans\\Downloads\\Java\\lib\\ext\\nashorn.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "d958adac5f1edefa22045a1409ccdeff154779c1",
+    "jarFileModificationDate": "2017-07-20T13:28:05.381-04:00",
+    "location": "C:\\Users\\alans\\Downloads\\Java\\lib\\jce.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "6d5033c86a1db912b721b6c2a36827521b7a6c80",
+    "jarFileModificationDate": "2017-07-20T13:28:05.312-04:00",
+    "location": "C:\\Users\\alans\\Downloads\\Java\\lib\\ext\\cldrdata.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "46bb34e18f3a5472136c158ced9c5612c7055945",
+    "jarFileModificationDate": "2017-07-20T13:28:06.913-04:00",
+    "location": "C:\\Users\\alans\\Downloads\\Java\\lib\\ext\\localedata.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "f4859558302a6d6020391d5798d6cda7a082c508",
+    "jarFileModificationDate": "2017-07-20T13:28:05.350-04:00",
+    "location": "C:\\Users\\alans\\Downloads\\Java\\lib\\ext\\zipfs.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "d72a1c33a4efa95ec3f48eae372cff16b045d338",
+    "jarFileModificationDate": "2017-07-20T13:28:05.396-04:00",
+    "location": "C:\\Users\\alans\\Downloads\\Java\\lib\\resources.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "0e1eb5bf8b8a46f4baca0447cde83197ae9eab58",
+    "jarFileModificationDate": "2017-07-20T13:28:05.334-04:00",
+    "location": "C:\\Users\\alans\\Downloads\\Java\\lib\\ext\\jfxrt.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "76ba0e08c6b3df9fb1551f00189323dac8fc818c",
+    "jarFileModificationDate": "2017-07-20T13:28:05.350-04:00",
+    "location": "C:\\Users\\alans\\Downloads\\Java\\lib\\ext\\sunmscapi.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "6f35ca38b4faa61088aad11d5e81e356137d734a",
+    "jarFileModificationDate": "2017-07-20T13:28:05.381-04:00",
+    "location": "C:\\Users\\alans\\Downloads\\Java\\lib\\jfr.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "f47010c14ae65984c590bcbb6a00c559334c5b8d",
+    "jarFileModificationDate": "2017-07-20T13:28:05.312-04:00",
+    "location": "C:\\Users\\alans\\Downloads\\Java\\lib\\ext\\jaccess.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "3e03b24852bf437dfae6a779e270eee60af5b641",
+    "jarFileModificationDate": "2017-07-20T13:28:05.350-04:00",
+    "location": "C:\\Users\\alans\\Downloads\\Java\\lib\\ext\\sunjce_provider.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "e283b1ceda35e09553fc6080dd43a0e7a2769430",
+    "jarFileModificationDate": "2017-07-20T13:28:06.766-04:00",
+    "location": "C:\\Users\\alans\\Downloads\\Java\\lib\\jsse.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "97f0f18b2d0a5ed5a01a682027efa9fb8bae1a5c",
+    "jarFileModificationDate": "2017-07-20T13:28:05.350-04:00",
+    "location": "C:\\Users\\alans\\Downloads\\Java\\lib\\ext\\sunpkcs11.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "89d378bc36c9b4a127fa4e193eda2121812b98ce",
+    "jarFileModificationDate": "2017-07-20T13:28:05.312-04:00",
+    "location": "C:\\Users\\alans\\Downloads\\Java\\lib\\ext\\dnsns.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "204f1d9a2509a853d60c24cf7f605d330e3ad1c3",
+    "jarFileModificationDate": "2017-07-20T13:28:06.835-04:00",
+    "location": "C:\\Users\\alans\\Downloads\\Java\\lib\\charsets.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "628b42a77b37d0e211635aa9b2c4b1fe8ee4d005",
+    "jarFileModificationDate": "2017-07-20T13:28:05.312-04:00",
+    "location": "C:\\Users\\alans\\Downloads\\Java\\lib\\ext\\access-bridge-64.jar",
+    "javaRuntime": true
+  }
+]
